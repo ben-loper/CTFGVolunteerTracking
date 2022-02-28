@@ -5,12 +5,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="SignUpForm.css" rel="stylesheet" />
-    <title>Document</title>
+    <link href="SignUpForm.css" rel="stylesheet"/>
+    
+    <title>Volunteer Sign Up Form</title>
 </head>
-
 <body>
+    <section>
+        <h1>Tell us a Little About Yourself!</h1>
+        <form action="" method="get" class="signUpForm">
+            <div class="form">
+              <label for="name">First Name</label>
+              <input type="text" name="name" required>
+            </div>
+            <div class="form">
+              <label for="name">Last Name</label>
+              <input type="text" name="name" required>
+            </div>
+            <div>
+                <label for="title">Title (Developer, Student, etc.)</label>
+                <input type="text" name="title" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email" required>
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" required>
+            </div>
 
+            <h3>Preferred Contact Method</h3>
+            <div>
+                <input type="checkbox" name="contact"
+                <label for="call">Call</label>
+            </div>
+            <div>
+                <input type="checkbox" name="contact" checked>
+                <label for="email">Email</label>
+            </div>
+              <div>
+                <input type="checkbox" name="contact">
+                <label for="text">Text</label>
+              </div>
+
+            <h3>Current Skills</h3>
+            <div>
+                <input type="checkbox" name="skills">
+                <label for="skills">Frontend</label>
+                <input type="checkbox" name="skills">
+                <label for="skills">Backend</label>
+                <input type="checkbox" name="skills">
+                <label for="skills">Web Security</label>
+                <input type="checkbox" name="skills">
+                <label for="skills">Database Admin</label>
+                <input type="checkbox" name="skills">
+                <label for="skills">Computer Networking</label>
+                <input type="checkbox" name="skills">
+                <label for="skills">Professional Networking</label>
+                <input type="checkbox" name="skills">
+                <label for="skills">Marketing</label>
+                <input type="checkbox" name="skills">
+                <label for="skills">Digital Design</label>
+            </div>
+
+            <h3>Areas of Interest</h3>
+            <input type="checkbox" name="interest">
+            <label for="interest">Frontend</label>
+            <input type="checkbox" name="interest">
+            <label for="interest">Backend</label>
+            <input type="checkbox" name="interest">
+            <label for="interest">Web Security</label>
+            <input type="checkbox" name="interest">
+            <label for="interest">Database Admin</label>
+            <input type="checkbox" name="interest">
+            <label for="interest">Computer Networking</label>
+            <input type="checkbox" name="interest">
+            <label for="interest">Professional Networking</label>
+            <input type="checkbox" name="interest">
+            <label for="interest">Marketing</label>
+            <input type="checkbox" name="interest">
+            <label for="interest">Digital Design</label>
+
+            <p>Are you Interested in heading or co-heading a committee?</p>
+            <div>
+                <input type="radio" name="leading" value="sure"
+                       checked>
+                <label for="sure">Sure!</label>
+            </div>
+            <div>
+                <input type="radio" name="leading" value="no">
+                <label for="no">No, thank you!</label>
+            </div>
+            <div>
+                <input type="radio" name="leading" value="maybe">
+                <label for="maybe">Maybe!</label>
+
+                <div class="form submit">
+                    <input type="submit" value="Get Connected!">
+                </div>
+            </div>
+          </form>
+    </section>
 </body>
-
 </html>

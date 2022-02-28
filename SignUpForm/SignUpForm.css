@@ -1,3 +1,30 @@
 body {
-    background-color: green;
+    background-color: grey;
+    padding: auto;
+    border: 2px solid #000000;
+    fon;
+}
+
+h1 {
+    padding: 1%;
+    
+}
+
+form.signUpForm {
+    display: table\\\;
+}
+
+div.signUpForm {
+    display: table-row;
+    display: inline;
+}
+form {
+    border: 2px solid black;
+    padding: 1%;
+    margin: 5%;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
 }
